@@ -1,0 +1,157 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #bbbbaa;
+}
+
+div.judul{
+    margin: 20px;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}
+
+.subjudul{
+    font-size: 26px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.subjudul2{
+    font-size: 26px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.deskripsi2{
+    text-align: justify;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+.deskripsi3{
+    font-size: 18px;
+    padding: 6px;
+    margin-left: 20px;
+}
+
+.daftarmakanan{
+    margin: 20px 35px;
+    padding: 10px;
+}
+
+.mieaceh li{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fotomieaceh{
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+div .mieaceh p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 6px;
+    margin-left: 3px;
+    width: 90%;
+}
+
+.bikaambon li{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.bikaambon img{
+
+    width: 500px;
+    height: 380px;
+    text-align: center;
+}
+
+.bikaambon p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 6px;
+    margin-left: 5px;
+    width: 90%;
+}
+
+.rendang li{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rendang img{
+    width: 500px;
+    height: 360px;
+}
+
+.rendang p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 6px;
+    margin-left: 5px;
+    width: 90%;
+}
+nav{
+    position: sticky;
+    padding: 4px ;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    border: 1px solid black;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: rgb(240, 183, 38);
+}
+
+nav ul{
+    display: flex ;
+    width: 40%;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav ul li a:active{
+    color: yellow;
+}
+.fotomakanan1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    height: 100px;
+    border: 1px solid black;
+    background-color:  rgb(224, 200, 138);
+    border-top-right-radius: 4px ;
+    border-top-left-radius: 4px ;
+    position: relative;
+}
